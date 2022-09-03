@@ -1,11 +1,11 @@
 <?php
 
-namespace SoareCostin\FileVault\Tests;
+namespace Jair921\FileVault\Tests;
 
 use Illuminate\Support\Facades\Storage;
 use Orchestra\Testbench\TestCase;
-use SoareCostin\FileVault\Facades\FileVault;
-use SoareCostin\FileVault\FileVaultServiceProvider;
+use Jair921\FileVault\Facades\FileVault;
+use Jair921\FileVault\FileVaultServiceProvider;
 
 class FileVaultTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace SoareCostin\FileVault;
+namespace Jair921\FileVault;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;

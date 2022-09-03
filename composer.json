@@ -1,11 +1,11 @@
 {
-    "name": "soarecostin/file-vault",
+    "name": "jair921/file-vault",
     "description": "",
     "keywords": [
         "laravel", "encrypt", "decrypt", "encryption", "decryption",
         "cbc", "php", "file", "file-vault"
     ],
-    "homepage": "https://github.com/soarecostin/file-vault",
+    "homepage": "https://github.com/jair921/file-vault",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "SoareCostin\\FileVault\\": "src"
+            "Jair921\\FileVault\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SoareCostin\\FileVault\\Tests\\": "tests"
+            "Jair921\\FileVault\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SoareCostin\\FileVault\\FileVaultServiceProvider"
+                "Jair921\\FileVault\\FileVaultServiceProvider"
             ],
             "aliases": {
-                "FileVault": "SoareCostin\\FileVault\\Facades\\FileVault"
+                "FileVault": "Jair921\\FileVault\\Facades\\FileVault"
             }
         }
     }
